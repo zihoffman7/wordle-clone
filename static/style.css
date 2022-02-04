@@ -1,0 +1,15 @@
+input[type="text"] {
+  border: 1px solid lightgray;
+  width: 27px;
+  height: 27px;
+  border-radius: 1px;
+  text-align: center;
+}
+.t-elem {
+  display: inline-block;
+  margin: 1px 0;
+}
+#board {
+  margin: 20px;
+  text-align: center;
+}
