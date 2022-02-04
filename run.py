@@ -46,5 +46,5 @@ def update():
     return jsonify(data=session["guesses"])
 
 
-if __name__ = "__run__":
+if __name__ == "__run__":
     app.run(port=2000, host="0.0.0.0")
