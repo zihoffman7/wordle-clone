@@ -4,6 +4,7 @@ from nltk import download, chain
 from nltk.corpus import wordnet
 
 download("wordnet")
+download("omw-1.4")
 
 app = Flask(__name__)
 app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
